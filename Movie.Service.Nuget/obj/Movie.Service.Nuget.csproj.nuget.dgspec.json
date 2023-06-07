@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj": {}
+  },
+  "projects": {
+    "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
+        "projectName": "Movie.Service.Nuget",
+        "projectPath": "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
+        "packagesPath": "/Users/Adeniyi/.nuget/packages/",
+        "outputPath": "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/x64/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Adeniyi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/Users/Adeniyi/Documents/GitHub/packages": {},
+          "/usr/local/share/dotnet/x64/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
