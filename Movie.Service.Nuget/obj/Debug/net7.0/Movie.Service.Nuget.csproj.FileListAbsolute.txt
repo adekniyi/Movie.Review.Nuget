@@ -12,3 +12,17 @@
 /Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.pdb
 /Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.genruntimeconfig.cache
 /Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/ref/Movie.Service.Nuget.dll
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net7.0/Movie.Service.Nuget.deps.json
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net7.0/Movie.Service.Nuget.runtimeconfig.json
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net7.0/Movie.Service.Nuget.dll
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net7.0/Movie.Service.Nuget.pdb
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.csproj.AssemblyReference.cache
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.AssemblyInfoInputs.cache
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.AssemblyInfo.cs
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.csproj.CoreCompileInputs.cache
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.dll
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/refint/Movie.Service.Nuget.dll
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.pdb
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/Movie.Service.Nuget.genruntimeconfig.cache
+/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/Debug/net7.0/ref/Movie.Service.Nuget.dll

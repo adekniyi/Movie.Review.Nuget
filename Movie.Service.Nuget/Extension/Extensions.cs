@@ -30,6 +30,20 @@ namespace Movie.Service.Nuget.Extension
 
             return services;
         }
+
+        public static IServiceCollection AddMessageBusClient(this IServiceCollection services)
+        {
+            services.AddSingleton<IMessageBusClient, MessageBusClient>();
+
+            return services;
+        }
+
+        public static IServiceCollection AddMessageBusConsumer<T>(this IServiceCollection services) where T : IEventProcessor
+        {
+            services.AddSingleton<MessageBusConsumer<T>>();
+
+            return services;
+        }
     }
 }
 

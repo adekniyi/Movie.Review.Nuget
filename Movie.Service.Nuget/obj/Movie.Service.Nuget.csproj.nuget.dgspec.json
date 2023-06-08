@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj": {}
+    "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj": {}
   },
   "projects": {
-    "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj": {
-      "version": "1.0.0",
+    "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj": {
+      "version": "1.0.4",
       "restore": {
-        "projectUniqueName": "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
+        "projectUniqueName": "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
         "projectName": "Movie.Service.Nuget",
-        "projectPath": "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
+        "projectPath": "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
         "packagesPath": "/Users/Adeniyi/.nuget/packages/",
-        "outputPath": "/Users/Adeniyi/Documents/GitHub/Movie.Service.Nuget/Movie.Service.Nuget/obj/",
+        "outputPath": "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/x64/sdk/NuGetFallbackFolder"
@@ -23,7 +23,7 @@
           "net7.0"
         ],
         "sources": {
-          "/Users/Adeniyi/Documents/GitHub/packages": {},
+          "/Users/Adeniyi/Documents/GitHub/mypackages": {},
           "/usr/local/share/dotnet/x64/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -72,6 +72,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
