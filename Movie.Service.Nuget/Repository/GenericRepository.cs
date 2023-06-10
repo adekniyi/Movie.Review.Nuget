@@ -36,9 +36,22 @@ namespace Movie.Service.Nuget.Repository
             return objContext.AsQueryable();
         }
 
+        public async Task<bool> Exist(int id)
+        {
+            return await objContext.Where(x => x.Id == id).AnyAsync();
+        }
+
         public bool SaveChanges()
         {
             return  _dbContext.SaveChanges() > 0;
+        }
+
+        public async Task<bool> Delete(int id)
+        {
+            var item = await objContext.FirstOrDefaultAsync(x => x.Id == id);
+
+            objContext.Remove(item);
+            return SaveChanges();
         }
     }
 }

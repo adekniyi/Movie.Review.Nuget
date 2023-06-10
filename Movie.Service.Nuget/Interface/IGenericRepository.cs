@@ -8,6 +8,8 @@ namespace Movie.Service.Nuget.Interface
         Task<bool> CreateAsync(T model);
 
         IQueryable<T> IQueryableOfT();
+        Task<bool> Exist(int id);
+        bool SaveChanges();
     }
 }
 
