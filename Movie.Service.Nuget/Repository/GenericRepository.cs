@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Movie.Service.Nuget.Interface;
 using Movie.Service.Nuget.Model;

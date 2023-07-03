@@ -5,7 +5,7 @@
   },
   "projects": {
     "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj": {
-      "version": "1.0.8",
+      "version": "1.0.5",
       "restore": {
         "projectUniqueName": "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
         "projectName": "Movie.Service.Nuget",
@@ -25,7 +25,6 @@
           "net7.0"
         ],
         "sources": {
-          "/Users/Adeniyi/Documents/GitHub/mypackages": {},
           "/usr/local/share/dotnet/x64/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },

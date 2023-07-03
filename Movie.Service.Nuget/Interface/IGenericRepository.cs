@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 using Movie.Service.Nuget.Model;
 
 namespace Movie.Service.Nuget.Interface
