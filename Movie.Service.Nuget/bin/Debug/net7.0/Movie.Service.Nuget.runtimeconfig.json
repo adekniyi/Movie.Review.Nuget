@@ -6,7 +6,8 @@
       "version": "7.0.0"
     },
     "configProperties": {
-      "System.Reflection.NullabilityInfoContext.IsSupported": true
+      "System.Reflection.NullabilityInfoContext.IsSupported": true,
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true
     }
   }
 }

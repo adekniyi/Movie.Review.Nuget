@@ -2,9 +2,14 @@
 using System.Text;
 using System.Text.Json;
 using System.Threading.Channels;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Movie.Service.Nuget.Interface;
 using RabbitMQ.Client;
+using Movie.Service.Nuget.Extension;
+#if NET5_0
+    using Newtonsoft.Json;
+#endif
 
 namespace Movie.Service.Nuget.Repository
 {
@@ -49,8 +54,11 @@ namespace Movie.Service.Nuget.Repository
 
         public void Publish(dynamic model, string routingKey)
         {
+#if NET5_0
+            var message = JsonConvert.SerializeObject(model);
+#elif NET7_0
             var message = JsonSerializer.Serialize(model);
-
+#endif
             if (_connection.IsOpen)
             {
                 Console.WriteLine("Message bus is connected");
@@ -61,6 +69,25 @@ namespace Movie.Service.Nuget.Repository
                 Console.WriteLine("Message bus closed");
             }
         }
+
+        public void Publish(Func<Task> model, string routingKey)
+        {
+            //var message = JsonSerializer.Serialize(model);
+
+            if (_connection.IsOpen)
+            {
+                Console.WriteLine("Message bus is connected");
+                var body = CustomLinq.SerializeFunction(model);
+
+                _channel.BasicPublish(exchange: _exchange, routingKey: routingKey, basicProperties: null, body: body);
+                Console.WriteLine($"Message sent {model}");
+            }
+            else
+            {
+                Console.WriteLine("Message bus closed");
+            }
+        }
+
 
         private void SendMessage(string message, string routingKey)
         {

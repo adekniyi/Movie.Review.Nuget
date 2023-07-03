@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Movie.Service.Nuget</id>
+    <version>1.0.7</version>
+    <authors>Movie.Service.Nuget</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.17" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="5.0.17" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.17" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="5.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="RabbitMQ.Client" version="6.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="7.0.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="RabbitMQ.Client" version="6.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net5.0/Movie.Service.Nuget.runtimeconfig.json" target="lib/net5.0/Movie.Service.Nuget.runtimeconfig.json" />
+    <file src="/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net5.0/Movie.Service.Nuget.dll" target="lib/net5.0/Movie.Service.Nuget.dll" />
+    <file src="/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net7.0/Movie.Service.Nuget.runtimeconfig.json" target="lib/net7.0/Movie.Service.Nuget.runtimeconfig.json" />
+    <file src="/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/bin/Debug/net7.0/Movie.Service.Nuget.dll" target="lib/net7.0/Movie.Service.Nuget.dll" />
+  </files>
+</package>

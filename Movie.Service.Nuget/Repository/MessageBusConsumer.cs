@@ -62,7 +62,7 @@ namespace Movie.Service.Nuget.Repository
             Console.WriteLine("Shut down");
         }
 
-        public void Consume()
+        public void Consume(int type = 0)
         {
             var consumer = new EventingBasicConsumer(_channel);
 
@@ -70,11 +70,21 @@ namespace Movie.Service.Nuget.Repository
             {
                 var body = e.Body;
 
-                var notificationMessage = Encoding.UTF8.GetString(body.ToArray());
+                if(type > 0)
+                {
+                    var notificationMessage = Extension.CustomLinq.DeserializeFunction(body.ToArray());
+                    Console.WriteLine($"Message receieved {notificationMessage}");
 
-                Console.WriteLine($"Message receieved {notificationMessage}");
+                    _eventProcessor.ProcessEvent(notificationMessage);
+                }
+                else
+                {
+                    var notificationMessage = Encoding.UTF8.GetString(body.ToArray());
 
-                _eventProcessor.ProcessEvent(notificationMessage);
+                    Console.WriteLine($"Message receieved {notificationMessage}");
+
+                    _eventProcessor.ProcessEvent(notificationMessage);
+                }
             };
 
             _channel.BasicConsume(queue: _queue, autoAck: true, consumer: consumer);

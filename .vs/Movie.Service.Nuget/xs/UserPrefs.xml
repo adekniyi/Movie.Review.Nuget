@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Movie.Service.Nuget/Repository/MessageBusConsumer.cs">
+    <Files>
+      <File FileName="Movie.Service.Nuget/Repository/MessageBusClient.cs" Line="66" Column="39" />
+      <File FileName="Movie.Service.Nuget/Extension/CustomLinq.cs" Line="48" Column="12" />
+      <File FileName="Movie.Service.Nuget/Repository/MessageBusConsumer.cs" Line="57" Column="14" />
+      <File FileName="Movie.Service.Nuget/Interface/IEventProcessor.cs" Line="9" Column="11" />
+      <File FileName="Movie.Service.Nuget/Interface/IMessageBusClient.cs" Line="9" Column="59" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Movie.Service.Nuget" expanded="True">
+            <Node name="Movie.Service.Nuget" expanded="True">
+              <Node name="Extension" expanded="True" />
+              <Node name="Interface" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="MessageBusConsumer.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

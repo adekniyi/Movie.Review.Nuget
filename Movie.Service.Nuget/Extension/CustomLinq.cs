@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 using Movie.Service.Nuget.Model;
 using System.Linq;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Threading.Tasks;
 
 namespace Movie.Service.Nuget.Extension
 {
@@ -23,6 +26,25 @@ namespace Movie.Service.Nuget.Extension
         public static T ApplySinglePredicate<T>(this IQueryable<T> query, Expression<Func<T, bool>> predicate) where T : IEntity
         {
             return query.Where(predicate).FirstOrDefault();
+        }
+
+        public static byte[] SerializeFunction(Func<Task> function)
+        {
+            var formatter = new BinaryFormatter();
+            using (var stream = new MemoryStream())
+            {
+                formatter.Serialize(stream, function);
+                return stream.ToArray();
+            }
+        }
+
+        public static Func<Task> DeserializeFunction(byte[] bytes)
+        {
+            var formatter = new BinaryFormatter();
+            using (var stream = new MemoryStream(bytes))
+            {
+                return (Func<Task>)formatter.Deserialize(stream);
+            }
         }
     }
 }
