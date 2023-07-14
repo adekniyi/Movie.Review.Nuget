@@ -9843,7 +9843,7 @@
     "/usr/local/share/dotnet/x64/sdk/NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.6",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/Adeniyi/Documents/GitHub/Movie.Review.Nuget/Movie.Service.Nuget/Movie.Service.Nuget.csproj",
       "projectName": "Movie.Service.Nuget",
